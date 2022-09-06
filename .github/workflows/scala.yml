@@ -22,4 +22,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: 'sbt'
+    - name: Init sbt
+      run: sbt
 
