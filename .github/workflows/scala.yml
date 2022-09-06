@@ -23,5 +23,5 @@ jobs:
         distribution: 'temurin'
         cache: 'sbt'
     - name: Init sbt
-      run: sbt test
+      run: sbt compile
 
